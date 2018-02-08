@@ -1,0 +1,6 @@
+---
+blobstore:
+  provider: local
+  options:
+    blobstore_path: /tmp/go-blobs
+final_name: go-hello-world

@@ -1,0 +1,21 @@
+name: go-hello-world
+version: 0+dev.1
+commit_hash: non-git
+uncommitted_changes: false
+jobs:
+- name: go-hello-world
+  version: ce6cc744664695ec939f161e6e483dd0a79dbb80
+  fingerprint: ce6cc744664695ec939f161e6e483dd0a79dbb80
+  sha1: 4a2f2348f619f551a44eed5789d563b13468b6c4
+packages:
+- name: go-hello-world
+  version: d43cdc99a529e2ea9b8d8a2c3f72d9f953f932d0
+  fingerprint: d43cdc99a529e2ea9b8d8a2c3f72d9f953f932d0
+  sha1: be0ca15255e7b2d79334445cc36023be4256df52
+  dependencies:
+  - golang
+- name: golang
+  version: 4ab96e6200268722deb4916e6983d538a23dcb60
+  fingerprint: 4ab96e6200268722deb4916e6983d538a23dcb60
+  sha1: 8eaec09b470341054f0f6de989ccc2bc225999af
+  dependencies: []
